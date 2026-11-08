@@ -45,6 +45,12 @@ See the [troubleshooting notes](docs/troubleshooting.md) for details.
 A systemd user timer schedules the scan daily at 6:00 p.m. The service runs the scan script and records its output in the user journal.
 
 See [Scan Automation](docs/automation.md) for configuration details and commands to check the timer and logs.
+### Service and timer configuration
+
+This illustration summarizes the key settings in my systemd user service and timer.
+
+![Recreated ClamAV service and timer configuration](Recreated%20ClamAV%20service%20and%20timer%20config.png)
+
 
 ## Testing
 
