@@ -33,3 +33,9 @@ I tested ClamAV detection using the EICAR antivirus test file and troubleshot a 
 The [scan script](scripts/clamav-scan.sh) scans selected directories with ClamAV and saves the results to a log file.
 
 The directory names in the repository are examples. Update `SCAN_DIRS` in the script to match the directories you want to scan.
+
+## Troubleshooting
+
+During setup, I investigated a file-access error with `clamdscan` and corrected a variable typo in the scan script.
+
+See the [troubleshooting notes](docs/troubleshooting.md) for details.
