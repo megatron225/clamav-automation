@@ -39,3 +39,9 @@ The directory names in the repository are examples. Update `SCAN_DIRS` in the sc
 During setup, I investigated a file-access error with `clamdscan` and corrected a variable typo in the scan script.
 
 See the [troubleshooting notes](docs/troubleshooting.md) for details.
+
+## Automated Scanning
+
+A systemd user timer schedules the scan daily at 6:00 p.m. The service runs the scan script and records its output in the user journal.
+
+See [Scan Automation](docs/automation.md) for configuration details and commands to check the timer and logs.
