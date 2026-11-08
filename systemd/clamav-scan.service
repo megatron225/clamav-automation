@@ -1,0 +1,13 @@
+[Unit]
+Description=ClamAV Automated Malware Scan
+
+# This line does not start or order the system-wide daemon
+# from the user systemd manager.
+After=clamav-daemon.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash %h/scripts/clamav/clamav-scan.sh
+WorkingDirectory=%h
+StandardOutput=journal
+StandardError=journal
