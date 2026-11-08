@@ -21,6 +21,7 @@ The result displayed:
 Eicar-Test-Signature FOUND
 Infected files: 1
 ```
+![ClamAV detecting the EICAR test signature](../Privacy-redacted%20terminal%20screenshot.png)
 
 This confirmed that ClamAV detected the test signature. Afterward, I removed the test file.
 
