@@ -31,3 +31,5 @@ bash -n "$HOME/scripts/clamav/clamav-scan.sh"
 ```
 
 The syntax check passed.
+
+[Back to the project overview](../README.md)
