@@ -27,3 +27,9 @@ I tested ClamAV detection using the EICAR antivirus test file and troubleshot a 
 - Configured a systemd user service and daily timer.
 - Recorded a successful scheduled scan in the project progress tracker.
 - Checked the current script for Bash syntax errors.
+
+## Scan Script
+
+The [scan script](scripts/clamav-scan.sh) scans selected directories with ClamAV and saves the results to a log file.
+
+The directory names in the repository are examples. Update `SCAN_DIRS` in the script to match the directories you want to scan.
