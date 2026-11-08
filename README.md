@@ -1,4 +1,7 @@
 # ClamAV Malware Scan Automation on Linux Mint
+
+<img src="clamav.png" alt="ClamAV logo" width="150">
+
 ClamAV malware scanning on a Linux Mint laptop, automated with Bash and a daily systemd timer.
 
 ## Project Overview
