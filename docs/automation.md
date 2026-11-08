@@ -25,6 +25,7 @@ The timer uses `Persistent=true` to catch up on a missed scheduled run when the 
 systemctl --user status clamav-scan.timer
 systemctl --user list-timers --all
 systemctl --user status clamav-scan.service
+```
 
 ## View service logs
 
