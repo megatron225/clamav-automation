@@ -13,7 +13,6 @@ SCAN_DIRS=(
     "$HOME/example-folder-1"
     "$HOME/example-folder-2"
 )
-)
 
 LOG_DIR="$HOME/clamav-logs"
 LOG_FILE="$LOG_DIR/scan-$(date +%F_%H-%M-%S).log"
