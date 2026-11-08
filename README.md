@@ -1,2 +1,29 @@
-# clamav-linux-mint-automation
+# ClamAV Malware Scan Automation on Linux Mint
 ClamAV malware scanning on a Linux Mint laptop, automated with Bash and a daily systemd timer.
+
+## Project Overview
+
+This project documents how I configured ClamAV on my Linux Mint laptop to scan selected directories for malware. I created a Bash script to run the scans and record the results, then configured a systemd user timer to run the script daily at 6:00 p.m.
+
+I tested ClamAV detection using the EICAR antivirus test file and troubleshot a file-access issue using the `--fdpass` option.
+
+## Environment
+
+| Component | Details |
+| --- | --- |
+| Operating system | Linux Mint 22.3 |
+| Antivirus | ClamAV 1.5.4 |
+| Scripting | Bash |
+| Automation | systemd user service and timer |
+| Scan schedule | Daily at 6:00 p.m. |
+| Directories scanned | Documents and Downloads |
+
+## Project Milestones
+
+- Verified the ClamAV installation and daemon.
+- Tested malware detection using the EICAR test file.
+- Troubleshot a scan permission issue.
+- Created a Bash script to scan selected directories and log results.
+- Configured a systemd user service and daily timer.
+- Recorded a successful scheduled scan in the project progress tracker.
+- Checked the current script for Bash syntax errors.
