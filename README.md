@@ -45,3 +45,9 @@ See the [troubleshooting notes](docs/troubleshooting.md) for details.
 A systemd user timer schedules the scan daily at 6:00 p.m. The service runs the scan script and records its output in the user journal.
 
 See [Scan Automation](docs/automation.md) for configuration details and commands to check the timer and logs.
+
+## Testing
+
+I tested ClamAV detection with the EICAR antivirus test file and verified that my scan script could complete successfully.
+
+See [Testing ClamAV](docs/testing.md) for the commands and results.
