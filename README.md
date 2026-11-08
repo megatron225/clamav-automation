@@ -7,6 +7,16 @@ This project documents how I configured ClamAV on my Linux Mint laptop to scan s
 
 I tested ClamAV detection using the EICAR antivirus test file and troubleshot a file-access issue using the `--fdpass` option.
 
+## Project Documentation
+
+- [Setup and verification](docs/setup.md)
+- [Scan automation](docs/automation.md)
+- [Testing and results](docs/testing.md)
+- [Troubleshooting](docs/troubleshooting.md)
+- [Bash scan script](scripts/clamav-scan.sh)
+- [systemd service](systemd/clamav-scan.service)
+- [systemd timer](systemd/clamav-scan.timer)
+
 ## Environment
 
 | Component | Details |
