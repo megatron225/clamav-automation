@@ -7,7 +7,6 @@ set -u
 umask 077
 OVERALL_STATUS=0
 
-SCAN_DIRS=(
 	# example paths with the directories you want to scan.
 SCAN_DIRS=(
     "$HOME/example-folder-1"
