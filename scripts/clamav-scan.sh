@@ -8,8 +8,11 @@ umask 077
 OVERALL_STATUS=0
 
 SCAN_DIRS=(
-    "$HOME/Documents"
-    "$HOME/Downloads"
+	# example paths with the directories you want to scan.
+SCAN_DIRS=(
+    "$HOME/example-folder-1"
+    "$HOME/example-folder-2"
+)
 )
 
 LOG_DIR="$HOME/clamav-logs"
